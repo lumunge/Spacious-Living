@@ -1,5 +1,22 @@
+:root {
+	--primaryColor: #ff5c33;
+	--secondaryColor: #3e537e;
+	--tertiaryColor: #fbceb1;
+	--mainWhite: #ecf0f1;
+	--mainBlack: #000;
+	--mainGrey: #dcdcdc;
+	--mainSpacing: 0.1rem;
+	--btnColors: #424949;
+	--linkColors: #ecf0f1;
+	--linkHoverColors: #ffbf00;
+	--transitionAll: all 0.5s linear;
+	--mainSpacing: 1.2px;
+}
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+body {
+	padding: 0 150px 0 150px;
 }

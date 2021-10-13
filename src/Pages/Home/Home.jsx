@@ -1,7 +1,14 @@
+import Landing from "../../Components/Landing/Landing"
+import Navbar from "../../Components/Navbar/Navbar";
+import Search from "../../Components/Search/Search";
+
 const Home = () => {
     return(
         <div>
-            <h1>Home Here</h1>
+            <Navbar/>
+            <Search/>
+           {/* <Header/> */}
+           <Landing/>
         </div>
     )
 }
