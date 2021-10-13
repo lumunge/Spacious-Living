@@ -1,14 +1,14 @@
-import Landing from "../../Components/Landing/Landing"
-import Navbar from "../../Components/Navbar/Navbar";
-import Search from "../../Components/Search/Search";
+import Header from "../../Components/Header/Header";
+import Landing from "../../Components/Landing/Landing";
+import './home.css';
 
 const Home = () => {
     return(
         <div>
-            <Navbar/>
-            <Search/>
-           {/* <Header/> */}
+        <div className="landing">
+           <Header/>
            <Landing/>
+        </div>
         </div>
     )
 }

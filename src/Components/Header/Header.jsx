@@ -1,12 +1,13 @@
 import Navbar from "../Navbar/Navbar";
-import Search from "../Search/Search"
+import Search from "../Search/Search";
+import './styles.css';
 
 const Header = () => {
     return(
-        <div>
+        <header>
             <Navbar/>
             <Search />
-        </div>
+        </header>
     )
 }
 
