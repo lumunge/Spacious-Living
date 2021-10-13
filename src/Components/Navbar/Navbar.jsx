@@ -20,13 +20,13 @@ const Navbar = () => {
             </div>
             <div className="navEnd">
                 <div className="end">
-                    <button>Become a host</button>
+                    <button className="btn">Become a host</button>
                 </div>
                 <div className="end">
                     <LanguageIcon/>
                 </div>
                 <div className="dropdown end">
-                    <button><AccountCircleIcon/></button>
+                    <AccountCircleIcon onClick={() => alert("hello")}/>
                     <div className="dropContent">
                         <a href="#!">Sign up</a>
                         <a href="#!">Log in</a>
