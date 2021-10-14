@@ -1,14 +1,16 @@
 @media (max-width: 576px) {
-	.search {
-		padding: 20px;
-		position: relative;
-	}
 	.searchBar {
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		height: 50px;
+		margin-top: -2.2rem;
 	}
+	.search {
+		padding: 20px;
+		position: relative;
+	}
+
 	.search input {
 		width: 300px;
 		margin-top: 15px;
