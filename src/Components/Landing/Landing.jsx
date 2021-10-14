@@ -1,6 +1,6 @@
 import landingImg from "../../img/home.svg";
 //styles
-import "./styles.css";
+import "./landing.css";
 
 const Landing = () => {
 

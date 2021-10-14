@@ -1,5 +1,6 @@
 import Cta from "../../Components/CTA/Cta";
 import Explore from "../../Components/Explore/Explore";
+import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 import Landing from "../../Components/Landing/Landing";
 import Reviews from "../../Components/Reviews/Reviews";
@@ -16,16 +17,8 @@ const Home = () => {
 				<Views />
 				<Cta />
 				<Reviews />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
-				<br />
+				<Footer/>
+				<br /><br /><br /><br /><br /><br />
 			</div>
 		</div>
 	);
