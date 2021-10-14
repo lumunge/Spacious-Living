@@ -1,3 +1,4 @@
+import Cta from "../../Components/CTA/Cta";
 import Explore from "../../Components/Explore/Explore";
 import Header from "../../Components/Header/Header";
 import Landing from "../../Components/Landing/Landing";
@@ -12,6 +13,7 @@ const Home = () => {
 				<Landing />
 				<Explore />
 				<Views />
+				<Cta />
 				<br />
 				<br />
 				<br />
