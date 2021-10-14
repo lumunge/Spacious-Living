@@ -2,6 +2,36 @@
 @media (max-width: 576px) {
 	footer {
 		display: flex;
+		flex-direction: column;
+	}
+	.footLinks {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 2rem;
+	}
+	.footHeading {
+		font-weight: 600;
+	}
+	.footLinks a {
+		margin: 5px 0;
+		text-decoration: none;
+		color: var(--mainBlack);
+	}
+	.footer {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+		padding: 0 2px;
+	}
+	.copyright p {
+		color: var(--mainGrey3);
+	}
+	.socials {
+		margin-bottom: 1rem;
+	}
+	.socials span {
+		padding: 0 10px;
 	}
 }
 
