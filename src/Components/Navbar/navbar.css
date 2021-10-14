@@ -86,6 +86,20 @@ header {
 }
 /* Small devices  */
 @media (max-width: 576px) {
+	.topResponsiveNav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0 10px;
+		width: 100%;
+		position: absolute;
+		top: 0;
+		height: 60px;
+	}
+	.top {
+		display: flex;
+		align-items: center;
+	}
 	.largeNav {
 		display: none;
 	}

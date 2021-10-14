@@ -12,9 +12,9 @@ const Navbar = () => {
 	const [stick, setStick] = useState(false);
 
 	const sticky = () => {
-		if(window.scrollY >= 70){
+		if (window.scrollY >= 70) {
 			setStick(true);
-		}else{
+		} else {
 			setStick(false);
 		}
 	};
@@ -23,6 +23,18 @@ const Navbar = () => {
 
 	return (
 		<header className="navContainer">
+			<div className="topResponsiveNav">
+				<div className="logo">
+					<span>hom-ly</span>
+				</div>
+				<div className="top">
+					<span>
+					<LanguageIcon className="language" /> 
+					</span>
+					&nbsp;
+					<button className="btn">Become a host</button>
+				</div>
+			</div>
 			<div className="largeNav">
 				<div>logo here</div>
 				<div className="navLinks">
