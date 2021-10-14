@@ -1,0 +1,51 @@
+.reviewContainer {
+	padding: 2rem 0;
+}
+.heading {
+	font-size: 1.5rem;
+	padding-left: 1.5rem;
+	padding-top: 1.5rem;
+	font-weight: 600;
+}
+.dot {
+	background-color: var(--primaryColor) !important;
+}
+.carousel-root {
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-top: 1rem;
+}
+.reviewWrapper {
+	width: 100%;
+	padding-bottom: 3rem;
+	padding-top: 2rem;
+}
+.reviewCard {
+	display: flex;
+	align-items: center;
+	background-color: var(--mainGrey);
+	border-radius: 20px;
+}
+.reviewImg {
+	width: 50%;
+	height: 200px;
+}
+.reviewImg img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 20px 0 0 20px;
+}
+.userReview {
+	width: 50%;
+	padding: 0 1rem;
+	text-align: left;
+}
+.control-arrow {
+	height: 30% !important;
+	top: 30% !important;
+}
+.username {
+	font-size: 12px;
+	color: var(--mainGrey3);
+}
