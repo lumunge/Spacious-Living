@@ -1,11 +1,9 @@
-import { Typography } from "@mui/material";
 import landingImg from "../../img/home.svg";
 //styles
 import "./styles.css";
 
 const Landing = () => {
-	// const classes = useStyles();
- 
+
 	return (
 		<div className="landingContainer">
 			<div className="introText">
