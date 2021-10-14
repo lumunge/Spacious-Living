@@ -3,3 +3,39 @@
 	display: flex;
 	align-items: center;
 }
+.cta {
+	background-color: var(--primaryColor);
+	padding: 10px 20px;
+	border-radius: 15px;
+	border: none;
+	color: var(--mainWhite);
+	font-weight: 600;
+	cursor: pointer;
+}
+@media (max-width: 576px) {
+	.landingContainer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.introText {
+		padding: 0 1rem;
+	}
+	.title {
+		font-size: 1.7rem;
+		font-weight: 600;
+		padding: 0;
+	}
+	.subtitle {
+		font-size: 1rem;
+		font-weight: 100;
+	}
+	.cta {
+		margin-top: 1rem;
+	}
+	.img img {
+		width: 100%;
+		height: 100%;
+	}
+}

@@ -1,25 +1,25 @@
 .landing {
 	padding: 0 150px 0 150px;
-
 	background: hsla(12, 100%, 60%, 1);
-
 	background: linear-gradient(
-		135deg,
-		hsla(12, 100%, 60%, 0.2) 10%,
-		hsla(12, 100%, 60%, 0.7) 100%
+		45deg,
+		hsla(12, 100%, 60%, 0) 0%,
+		hsla(12, 100%, 60%, 0.5) 100%
 	);
-
 	background: -moz-linear-gradient(
-		135deg,
-		hsla(12, 100%, 60%, 0.2) 10%,
-		hsla(12, 100%, 60%, 0.7) 100%
+		45deg,
+		hsla(12, 100%, 60%, 0) 0%,
+		hsla(12, 100%, 60%, 0.5) 100%
 	);
-
 	background: -webkit-linear-gradient(
-		135deg,
-		hsla(12, 100%, 60%, 0.2) 10%,
-		hsla(12, 100%, 60%, 0.7) 100%
+		45deg,
+		hsla(12, 100%, 60%, 0) 0%,
+		hsla(12, 100%, 60%, 0.5) 100%
 	);
-
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF5C33", endColorstr="#FF5C33", GradientType=1 );
+}
+@media (max-width: 576px) {
+	.landing {
+		padding: 0;
+	}
 }

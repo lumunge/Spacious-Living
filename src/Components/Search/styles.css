@@ -21,3 +21,9 @@
 	bottom: 1.7rem;
 	cursor: pointer;
 }
+@media (max-width: 576px) {
+	.search input {
+		width: 300px;
+		margin-top: 15px;
+	}
+}
