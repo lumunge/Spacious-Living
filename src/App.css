@@ -11,6 +11,7 @@
 	--linkHoverColors: #ffbf00;
 	--transitionAll: all 0.5s linear;
 	--mainSpacing: 1.2px;
+	--titleFont: 1.2rem;
 }
 * {
 	margin: 0;

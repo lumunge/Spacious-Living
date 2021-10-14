@@ -1,6 +1,7 @@
 import Explore from "../../Components/Explore/Explore";
 import Header from "../../Components/Header/Header";
 import Landing from "../../Components/Landing/Landing";
+import Views from "../../Components/Views/Views";
 import "./home.css";
 
 const Home = () => {
@@ -10,7 +11,17 @@ const Home = () => {
 				<Header />
 				<Landing />
 				<Explore />
-				<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+				<Views />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
+				<br />
 			</div>
 		</div>
 	);

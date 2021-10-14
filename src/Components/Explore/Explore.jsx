@@ -37,7 +37,7 @@ const Explore = () => {
     ])
     return(
         <div className="exploreContainer">
-            <p className="title">Explore nearby</p>
+            <p className="exploreTitle">Explore nearby</p>
             <div className="exploreAreas">
                 {locations.map((location) => (
                     <div className="location">

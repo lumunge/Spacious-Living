@@ -4,9 +4,10 @@
 		height: 30vh;
 		overflow: hidden;
 	}
-	.title {
-		font-weight: 500;
-		padding: 10px 20px;
+	.exploreTitle {
+		font-size: var(--titleFont);
+		font-weight: 600;
+		padding: 20px 0 1px 20px;
 	}
 	.exploreAreas {
 		display: flex;

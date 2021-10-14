@@ -1,0 +1,46 @@
+.viewTitle {
+	font-size: var(--titleFont);
+	font-weight: 600;
+	padding: 20px 0 1px 20px;
+}
+.views {
+	overflow-x: scroll;
+	display: flex;
+}
+.view {
+	margin: 1rem 1.5rem 0 1rem;
+	padding: 2rem 0;
+}
+.viewImg {
+	width: 250px;
+	height: 230px;
+	border-radius: 20px;
+}
+.viewImg img {
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+.viewLocation {
+	color: var(--btnColors);
+	padding: 10px 0;
+}
+.viewName {
+	font-weight: 600;
+}
+.footer {
+	display: flex;
+	justify-content: space-between;
+}
+.rating {
+	display: flex;
+	align-items: center;
+	padding-top: 10px;
+}
+.ratingIcon {
+	margin-right: 1rem;
+	color: var(--primaryColor);
+}
+.money {
+	font-weight: 600;
+}
