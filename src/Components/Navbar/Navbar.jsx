@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 // icons
 import LanguageIcon from "@mui/icons-material/Language";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
@@ -5,9 +6,21 @@ import ExploreIcon from "@mui/icons-material/Explore";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 //styles
-import "./styles.css";
+import "./navbar.css";
 
 const Navbar = () => {
+	const [stick, setStick] = useState(false);
+
+	const sticky = () => {
+		if(window.scrollY >= 70){
+			setStick(true);
+		}else{
+			setStick(false);
+		}
+	};
+
+	window.addEventListener("scroll", sticky);
+
 	return (
 		<header className="navContainer">
 			<div className="largeNav">
@@ -43,21 +56,21 @@ const Navbar = () => {
 					</div>
 				</div>
 			</div>
-			<div className="smallNav">
+			<div className={stick ? "smallNav active" : "smallNav"}>
 				<div className="smallIcon">
 					<ExploreIcon />
-                    <br />
-                    <small>spaces</small>
+					<br />
+					<small>spaces</small>
 				</div>
 				<div className="smallIcon">
 					<FavoriteBorderIcon />
-                    <br />
-                    <small>wishlist</small>
+					<br />
+					<small>wishlist</small>
 				</div>
 				<div className="smallIcon">
 					<PersonOutlineIcon />
-                    <br />
-                    <small>login</small>
+					<br />
+					<small>login</small>
 				</div>
 			</div>
 		</header>

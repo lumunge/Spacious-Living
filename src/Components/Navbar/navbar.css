@@ -1,3 +1,7 @@
+header {
+	position: relative;
+	z-index: 999;
+}
 .navContainer {
 	display: flex;
 	justify-content: space-between;
@@ -82,20 +86,22 @@
 }
 /* Small devices  */
 @media (max-width: 576px) {
-	.navContainer {
-		position: fixed;
-		bottom: 0;
-		/* height: 70px; */
-		background-color: var(--mainWhite);
-		width: 100%;
-	}
 	.largeNav {
 		display: none;
 	}
 	.smallNav {
+		position: fixed;
+		bottom: 0;
+		background-color: var(--mainWhite);
+		height: 70px;
 		display: flex;
 		justify-content: space-around;
 		width: 100%;
+		visibility: hidden;
+	}
+	.active {
+		visibility: visible;
+		transition: all 0.5s;
 	}
 	.smallIcon {
 		display: flex;
