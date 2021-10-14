@@ -1,6 +1,7 @@
 .landing {
-	height: 100vh;
+	height: 93vh;
 	padding: 0 150px 0 150px;
+	background: red;
 	background: hsla(12, 100%, 60%, 1);
 	background: linear-gradient(
 		45deg,

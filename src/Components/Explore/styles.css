@@ -1,0 +1,51 @@
+/* Small devices  */
+@media (max-width: 576px) {
+	.exploreContainer {
+		height: 30vh;
+		overflow: hidden;
+	}
+	.title {
+		font-weight: 500;
+		padding: 10px 20px;
+	}
+	.exploreAreas {
+		display: flex;
+		height: 150px;
+		overflow-x: scroll;
+		padding: 0 1rem;
+	}
+	.location {
+		display: flex;
+		align-items: center;
+		padding-right: 1rem;
+	}
+	.locationImg {
+		width: 120px;
+		height: 90px;
+		border-radius: 20px;
+	}
+	.locationImg img {
+		width: 100%;
+		height: 100%;
+		border-radius: 20px;
+		object-fit: cover;
+	}
+	.locationDetails {
+		padding-left: 10px;
+	}
+	.locationDetails .name {
+		font-weight: 500;
+	}
+	.locationDetails .drive {
+		font-size: 10px;
+	}
+}
+
+/* // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... } */
+
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... } */
+
+/* // Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */

@@ -1,3 +1,4 @@
+import Explore from "../../Components/Explore/Explore";
 import Header from "../../Components/Header/Header";
 import Landing from "../../Components/Landing/Landing";
 import "./home.css";
@@ -8,6 +9,8 @@ const Home = () => {
 			<div className="landing">
 				<Header />
 				<Landing />
+				<Explore />
+				<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 			</div>
 		</div>
 	);
