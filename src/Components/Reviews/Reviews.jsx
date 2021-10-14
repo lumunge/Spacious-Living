@@ -57,6 +57,8 @@ const Reviews = () => {
 						infiniteLoop
 						useKeyboardArrows
 						autoPlay
+						stopOnHover
+						showStatus={false}
 					>
                         {cards.map((card) => (
                             <div className="reviewWrapper">
