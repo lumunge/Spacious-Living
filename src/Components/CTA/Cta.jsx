@@ -5,7 +5,7 @@ const Cta = () => {
 		<div className="ctaContainer">
 			<div className="card">
 				<div className="ctaDetails">
-					<h4>List your house</h4>
+					<p className="cardHeading">List your house</p>
 					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing
 						elit. Libero, consequuntur.
@@ -21,3 +21,4 @@ const Cta = () => {
 };
 
 export default Cta;
+ 

@@ -1,6 +1,8 @@
+import './reviews.css';
+
 const Reviews = () => {
     return(
-        <div>
+        <div className="reviewContainer">
             <h1>Reviews Here</h1>
         </div>
     )
