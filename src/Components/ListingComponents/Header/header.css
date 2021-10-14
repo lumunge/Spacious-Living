@@ -1,0 +1,11 @@
+.headerContainer {
+	margin-top: 2rem;
+	padding: 0 1.2rem;
+}
+.housesNumber {
+	padding-bottom: 12px;
+}
+.listingTitle {
+	font-weight: 600;
+	font-size: 1.5rem;
+}
