@@ -1,0 +1,26 @@
+.landingWrapper {
+	height: 350px;
+	background-image: url("../../../img/uploadGirl.png");
+	background-position: center;
+	background-size: cover;
+	object-fit: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 350px;
+	padding: 1rem 1.5rem;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.4);
+}
+.landingHeading {
+	font-size: 1.6rem;
+	padding-bottom: 1rem;
+}
+.uploadCta {
+	width: 30%;
+}
