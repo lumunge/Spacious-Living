@@ -8,7 +8,7 @@ import Houses from "../../Components/ListingComponents/Houses/Houses";
 const Listings = () => {
 	return (
 		<>
-			<Navbar />
+			<Navbar /> 
 			<Search />
 			<Map />
 			<Header />
