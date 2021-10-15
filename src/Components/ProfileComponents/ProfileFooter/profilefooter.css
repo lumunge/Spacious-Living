@@ -1,0 +1,17 @@
+.profileFooter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footerLinks {
+	margin-bottom: 1rem;
+}
+.footerLinks a {
+	color: var(--primaryColor);
+	text-decoration: none;
+	font-size: 12px;
+	padding-right: 12px;
+}
+.footerCopyright {
+	font-size: 12px;
+}
