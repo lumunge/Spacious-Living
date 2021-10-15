@@ -57,11 +57,11 @@ const SimilarHouses = () => {
 							<img src={house.image} alt={house.title} />
 						</div>
 						<div className="similarDescription">
-							<p>
-								<StarOutlineIcon className="rateIcon" />{" "}
+							<p className="rating">
+								<StarOutlineIcon className="rateIcon" />&nbsp;
 								{house.rating}
 							</p>
-							<p className="similarTitle">{house.title}</p>
+							<p className="similarHouseTitle">{house.title}</p>
 							<p>
 								{house.features.map((feature) => (
 									<span className="feature">{feature}, </span>

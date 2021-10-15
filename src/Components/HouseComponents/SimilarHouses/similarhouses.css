@@ -1,9 +1,23 @@
 .similarHousesWrapper {
 	display: flex;
 	overflow-x: scroll;
+	-ms-overflow-style: none; /* for Internet Explorer, Edge */
+	scrollbar-width: none; /* for Firefox */
+	overflow-x: scroll;
+	padding: 0 1rem;
 }
 .similarHouse {
 	margin: 1.5rem;
+}
+.similarHouse::-webkit-scrollbar {
+	display: none; /* for Chrome, Safari, and Opera */
+}
+.rating {
+	margin-top: 5px;
+}
+.similarTitle {
+	margin: 0 1.5rem;
+	font-weight: bold;
 }
 .similarImage {
 	width: 200px;
@@ -19,7 +33,7 @@
 .similarDescription p {
 	padding: 5px 0;
 }
-.similarTitle {
+.similarHouseTitle {
 	font-weight: 600;
 }
 .feature {

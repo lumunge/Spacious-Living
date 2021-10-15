@@ -12,7 +12,6 @@
 	.exploreAreas {
 		display: flex;
 		height: 150px;
-		/* overflow-x: scroll; */
 		-ms-overflow-style: none; /* for Internet Explorer, Edge */
 		scrollbar-width: none; /* for Firefox */
 		overflow-x: scroll;
