@@ -1,0 +1,34 @@
+.similarHousesWrapper {
+	display: flex;
+	overflow-x: scroll;
+}
+.similarHouse {
+	margin: 1.5rem;
+}
+.similarImage {
+	width: 200px;
+	height: 150px;
+	border-radius: 20px;
+}
+.similarImage img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 20px;
+}
+.similarDescription p {
+	padding: 5px 0;
+}
+.similarTitle {
+	font-weight: 600;
+}
+.feature {
+	color: var(--mainGrey3);
+	font-size: 1rem;
+}
+.rateIcon {
+	color: var(--primaryColor);
+}
+.money {
+	font-weight: bold;
+}
