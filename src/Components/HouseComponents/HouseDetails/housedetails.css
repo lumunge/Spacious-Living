@@ -42,3 +42,7 @@
 .reviewsAccordion {
 	margin-top: 4rem;
 }
+.reviewIcon {
+	position: absolute;
+	cursor: pointer;
+}

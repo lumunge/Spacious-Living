@@ -55,7 +55,7 @@ const HouseDetails = () => {
 				/>
 			</div>
 			<div className="reviewsAccordion">
-				<p className="sectionTitle">Reviews <ExpandMoreIcon /> </p>
+				<p className="sectionTitle">Reviews <ExpandMoreIcon className="reviewIcon" /> </p>
 			</div>
 		</div>
 	);
