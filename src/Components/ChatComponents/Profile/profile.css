@@ -1,0 +1,39 @@
+.profileContainer {
+	padding: 1rem 2rem;
+}
+.chatTitle {
+	font-weight: 600;
+	padding: 1rem 0;
+	font-size: 1.3rem;
+}
+.chatProfile {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.profileImg {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.profileImg img {
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.profileDetails {
+	text-align: center;
+}
+.profileName {
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin: 1rem 0;
+}
+.userRank {
+	background-color: rgba(255, 92, 51, 0.4);
+	padding: 6px 30px;
+	border-radius: 20px;
+	color: var(--primaryColor);
+}
