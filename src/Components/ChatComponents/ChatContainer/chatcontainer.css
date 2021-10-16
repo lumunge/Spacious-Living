@@ -1,82 +1,157 @@
-.chatWrapper {
-	background-color: var(--mainGrey2);
-	height: 60vh;
+@media (max-width: 740px) {
+	.profileContainer {
+		padding: 1rem 2rem;
+		height: 40vh;
+	}
+	.chatTitle {
+		font-weight: 600;
+		padding: 10px 0;
+		font-size: 1.3rem;
+	}
+	.chatProfile {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.profileImg {
+		width: 130px;
+		height: 120px;
+		border-radius: 50%;
+	}
+	.profileImg img {
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		object-fit: cover;
+	}
+	.profileDetails {
+		text-align: center;
+	}
+	.profileName {
+		font-weight: bold;
+		font-size: 1rem;
+		margin: 10px 0;
+	}
+	.userRank {
+		background-color: rgba(255, 92, 51, 0.4);
+		padding: 6px 30px;
+		border-radius: 20px;
+		color: var(--primaryColor);
+	}
+
+	.chatWrapper {
+		background-color: var(--mainGrey2);
+		height: 60vh;
+	}
+	.chatsContainer {
+		height: 50vh;
+		padding: 10px 2rem;
+		overflow-y: scroll;
+	}
+	.chat {
+		display: flex;
+		flex-direction: column;
+		padding: 5px 0;
+	}
+	.messageWrapper {
+		display: flex;
+	}
+	.senderWrapper {
+		float: right;
+	}
+	.senderWrapper {
+		display: flex;
+		flex-direction: row-reverse;
+	}
+	.time {
+		font-size: 10px;
+		color: var(--mainGrey3);
+	}
+	.senderTime {
+		float: right;
+		padding-right: 4rem;
+	}
+	.receiverTime {
+		padding-left: 4rem;
+	}
+	.messageBubble {
+		height: 40px;
+		display: flex;
+		align-items: center;
+		border-radius: 20px;
+		padding: 0 16px;
+	}
+	.senderBubble {
+		background-color: #fff;
+		margin-right: 1rem;
+	}
+	.receiverBubble {
+		background-color: #e5e5e5;
+		margin-left: 1rem;
+	}
+	.userImage {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+	.userImage img {
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		object-fit: cover;
+	}
+	.messageInput {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 1rem 0;
+	}
+	.messageInput input {
+		width: 400px;
+		padding: 10px 2.5rem 10px 2.5rem;
+		border-radius: 20px;
+		border: none;
+	}
+	.inputIcon {
+		position: relative;
+	}
+	.emoji {
+		right: -2rem;
+	}
+	.send {
+		left: -2rem;
+	}
+	.chatDetails {
+		display: none;
+	}
 }
-.chatsContainer {
-	height: 50vh;
-	padding: 10px 2rem;
-	overflow-y: scroll;
-}
-.chat {
-	display: flex;
-	flex-direction: column;
-	padding: 5px 0;
-}
-.messageWrapper {
-	display: flex;
-}
-.senderWrapper {
-	float: right;
-}
-.senderWrapper {
-	display: flex;
-	flex-direction: row-reverse;
-}
-.time {
-	font-size: 10px;
-	color: var(--mainGrey3);
-}
-.senderTime {
-	float: right;
-	padding-right: 4rem;
-}
-.receiverTime {
-	padding-left: 4rem;
-}
-.messageBubble {
-	height: 40px;
-	display: flex;
-	align-items: center;
-	border-radius: 20px;
-	padding: 0 16px;
-}
-.senderBubble {
-	background-color: #fff;
-	margin-right: 1rem;
-}
-.receiverBubble {
-	background-color: #e5e5e5;
-	margin-left: 1rem;
-}
-.userImage {
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-}
-.userImage img {
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	object-fit: cover;
-}
-.messageInput {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 1rem 0;
-}
-.messageInput input {
-	width: 400px;
-	padding: 10px 2.5rem 10px 2.5rem;
-	border-radius: 20px;
-	border: none;
-}
-.inputIcon {
-	position: relative;
-}
-.emoji {
-	right: -2rem;
-}
-.send {
-	left: -2rem;
+@media (min-width: 740px), (min-width: 1200px) {
+	.chatMainContainer {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.profileImg {
+		width: 130px;
+		height: 120px;
+		border-radius: 50%;
+	}
+	.profileImg img {
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		object-fit: cover;
+	}
+	.userImage {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+	}
+	.userImage img {
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		object-fit: cover;
+	}
 }
