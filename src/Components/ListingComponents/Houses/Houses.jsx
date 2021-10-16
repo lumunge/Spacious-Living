@@ -1,6 +1,7 @@
-import StarOutlineIcon from '@mui/icons-material/StarOutline';
-import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import './houses.css';
+import StarOutlineIcon from "@mui/icons-material/StarOutline";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import mapImg from "../../../img/map.webp";
+import "./houses.css";
 
 const Houses = () => {
 	const houses = [
@@ -57,27 +58,39 @@ const Houses = () => {
 		},
 	];
 	return (
-        <div className="housesContainer">
-            {houses.map((house) => (
-                <div className="house">
-                    <div className="houseImg">
-                        <img src={house.image} alt={house.type} />
-                    </div>
-                    <div className="houseDetails">
-						<div className="houseIcons">
-							<span><StarOutlineIcon className="rate"/> {house.rating}</span>
-							<span><FavoriteBorderIcon className="like" /></span>
+		<div className="listingContainer">
+			<div className="mapContainer">
+				<img src={mapImg} alt="map_image" />
+			</div>
+			<div className="housesContainer">
+				{houses.map((house) => (
+					<div className="house">
+						<div className="houseImg">
+							<img src={house.image} alt={house.type} />
 						</div>
-                        <p>{house.type}</p>
-                        <span className="amenities">{house.amenities.map((amenity) => (
-                            <span>{amenity}, </span>
-                        ))}</span>
-                        <p className="money">Ksh {house.price}</p>
-                    </div>
-                </div>
-            ))}
-        </div>
-    )
+						<div className="houseDetails">
+							<div className="houseIcons">
+								<span className="houseRating">
+									<StarOutlineIcon className="rate" />{" "}
+									<>{house.rating}</>
+								</span>
+								<span>
+									<FavoriteBorderIcon className="like" />
+								</span>
+							</div>
+							<p className="houseTitle">{house.type}</p>
+							<span className="amenities">
+								{house.amenities.map((amenity) => (
+									<span>{amenity}, </span>
+								))}
+							</span>
+							<p className="houseMoney">Ksh {house.price}</p>
+						</div>
+					</div>
+				))}
+			</div>
+		</div>
+	);
 };
 
 export default Houses;

@@ -1,11 +1,25 @@
+.housesNumber {
+	padding-bottom: 12px;
+	font-size: 1.2rem;
+}
+
+.filterSelect {
+	padding: 10px 25px;
+	border-radius: 20px;
+	border: none;
+	background-color: var(--mainGrey2);
+}
+.filterSelect {
+	appearance: none;
+	cursor: pointer;
+}
 @media (max-width: 740px) {
 	.headerContainer {
-		display: none;
 		margin-top: 2rem;
 		padding: 0 1.2rem;
 	}
-	.housesNumber {
-		padding-bottom: 12px;
+	.filteringContainer {
+		visibility: hidden;
 	}
 	.listingTitle {
 		font-weight: 600;
@@ -22,4 +36,20 @@
 	}
 }
 @media (min-width: 740px), (min-width: 1200px) {
+	.headerContainer {
+		margin: 2rem 100px;
+		padding: 0 1.2rem;
+	}
+	.listingTitle {
+		font-weight: 600;
+		font-size: 2rem;
+	}
+	.filteringContainer {
+		display: flex;
+		align-items: center;
+		margin: 1rem 0;
+	}
+	.filteringContainer .filter {
+		margin: 0 1rem;
+	}
 }
