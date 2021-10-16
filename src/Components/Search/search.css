@@ -32,7 +32,6 @@
 	}
 }
 
-/* // Medium devices (tablets, 768px and up) */
 @media (min-width: 740px), (min-width: 1200px) {
 	.search {
 		padding: 20px;
