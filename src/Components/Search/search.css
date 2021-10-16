@@ -1,16 +1,24 @@
-@media (max-width: 576px) {
-	.searchBar {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 50px;
-		margin-top: -1rem;
-	}
+.searchBar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	margin-top: -1rem;
+}
+
+.searchBtn {
+	position: absolute;
+	right: 2.2rem;
+	bottom: 1.7rem;
+	cursor: pointer;
+}
+
+/* Small devices  */
+@media (max-width: 740px) {
 	.search {
 		padding: 20px;
 		position: relative;
 	}
-
 	.search input {
 		width: 300px;
 		margin-top: 15px;
@@ -22,10 +30,23 @@
 		border: none;
 		padding: 10px;
 	}
-	.searchBtn {
-		position: absolute;
-		right: 2.2rem;
-		bottom: 1.7rem;
-		cursor: pointer;
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 740px), (min-width: 1200px) {
+	.search {
+		padding: 20px;
+		position: relative;
+	}
+	.search input {
+		width: 500px;
+		margin-top: 15px;
+	}
+	.search input {
+		width: 500px;
+		height: 40px;
+		border-radius: 20px;
+		border: none;
+		padding: 10px;
 	}
 }

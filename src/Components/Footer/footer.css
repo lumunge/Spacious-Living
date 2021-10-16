@@ -1,6 +1,6 @@
 /* Small devices  */
 @media (max-width: 576px) {
-	footer {
+	.header {
 		display: flex;
 		flex-direction: column;
 	}

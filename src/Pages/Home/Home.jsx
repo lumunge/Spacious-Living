@@ -18,7 +18,6 @@ const Home = () => {
 				<Cta />
 				<Reviews />
 				<Footer/>
-				<br /><br /><br /><br /><br /><br />
 			</div>
 		</div>
 	);

@@ -1,6 +1,4 @@
 .landing {
-	height: 93vh;
-	padding: 0 150px 0 150px;
 	background: red;
 	background: hsla(12, 100%, 60%, 1);
 	background: linear-gradient(
@@ -25,3 +23,19 @@
 		padding: 0;
 	}
 }
+
+/* Small devices  */
+/* @media (max-width: 740px) {
+	.landing {
+		height: 93vh;
+		padding: 0 150px 0 150px;
+	}
+} */
+
+/* // Medium devices (tablets, 768px and up) */
+/* @media (min-width: 740px), (min-width: 1200px) {
+	.landing {
+		height: 93vh;
+		padding: 0 150px 0 150px;
+	}
+} */

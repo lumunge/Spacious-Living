@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 // icons
 import LanguageIcon from "@mui/icons-material/Language";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
@@ -29,14 +29,16 @@ const Navbar = () => {
 				</div>
 				<div className="top">
 					<span>
-					<LanguageIcon className="language" /> 
+						<LanguageIcon className="language" />
 					</span>
 					&nbsp;
 					<button className="btn">Become a host</button>
 				</div>
 			</div>
 			<div className="largeNav">
-				<div>logo here</div>
+				<div className="logo">
+					<span>hom-ly</span>
+				</div>
 				<div className="navLinks">
 					<a href="#!" className="link">
 						Places to Stay
