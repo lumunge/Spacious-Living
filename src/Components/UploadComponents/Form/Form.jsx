@@ -2,6 +2,7 @@ import { useState } from "react";
 import plus from "../../../img/plus.png";
 import blank from "../../../img/blankImg.jpg";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
+import AddCircleOutlinedIcon from '@mui/icons-material/AddCircleOutlined';
 import "./form.css";
 
 const Form = () => {
@@ -89,11 +90,7 @@ const Form = () => {
 								</div>
 								<div className="fileInput">
 									<label for="file-input1">
-										<img
-											id="addImageIcon"
-											src={plus}
-											alt="none"
-										/>
+										<AddCircleOutlinedIcon className="addImageIcon"/>
 									</label>
 									<input
 										id="file-input1"
@@ -113,11 +110,7 @@ const Form = () => {
 								</div>
 								<div className="fileInput">
 									<label for="file-input2">
-										<img
-											id="addImageIcon"
-											src={plus}
-											alt="none"
-										/>
+										<AddCircleOutlinedIcon className="addImageIcon"/>
 									</label>
 									<input
 										id="file-input2"
@@ -137,11 +130,7 @@ const Form = () => {
 								</div>
 								<div className="fileInput">
 									<label for="file-input3">
-										<img
-											id="addImageIcon"
-											src={plus}
-											alt="none"
-										/>
+										<AddCircleOutlinedIcon className="addImageIcon"/>
 									</label>
 									<input
 										id="file-input3"
@@ -161,11 +150,7 @@ const Form = () => {
 								</div>
 								<div className="fileInput">
 									<label for="file-input4">
-										<img
-											id="addImageIcon"
-											src={plus}
-											alt="none"
-										/>
+										<AddCircleOutlinedIcon className="addImageIcon"/>
 									</label>
 									<input
 										id="file-input4"
@@ -185,11 +170,7 @@ const Form = () => {
 								</div>
 								<div className="fileInput">
 									<label for="file-input5">
-										<img
-											id="addImageIcon"
-											src={plus}
-											alt="none"
-										/>
+										<AddCircleOutlinedIcon className="addImageIcon"/>
 									</label>
 									<input
 										id="file-input5"
@@ -199,7 +180,7 @@ const Form = () => {
 									/>
 								</div>
 							</div>
-						</div>
+						</div> 
 					</div>
 					<div className="formInput">
 						<div className="checkBox">

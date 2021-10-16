@@ -24,10 +24,11 @@
 	select {
 		padding: 10px 25px;
 		border-radius: 20px;
-		border: 1px solid var(--primaryColor);
+		border: 2px solid var(--mainBlack);
 	}
 	.formInput select {
 		appearance: none;
+		cursor: pointer;
 	}
 	label {
 		padding-bottom: 1rem;
@@ -57,12 +58,11 @@
 	.fileImg img {
 		width: 100%;
 		height: 100%;
+		object-fit: cover;
 	}
-	#addImageIcon {
-		width: 20px;
-		height: 20px;
-		background-color: var(--primaryColor);
-		border-radius: 50%;
+	.addImageIcon {
+		color: var(--primaryColor);
+		cursor: pointer;
 	}
 	.vetting {
 		display: flex;
