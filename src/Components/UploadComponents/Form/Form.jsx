@@ -1,5 +1,4 @@
 import { useState } from "react";
-import plus from "../../../img/plus.png";
 import blank from "../../../img/blankImg.jpg";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import AddCircleOutlinedIcon from '@mui/icons-material/AddCircleOutlined';
