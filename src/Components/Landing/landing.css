@@ -1,9 +1,7 @@
 .landingContainer {
 	height: calc(100vh - 100px);
-	display: flex;
-	align-items: center;
 }
-.cta {
+.landingCta {
 	background-color: var(--primaryColor);
 	padding: 10px 20px;
 	border-radius: 15px;
@@ -11,8 +9,10 @@
 	color: var(--mainWhite);
 	font-weight: 600;
 	cursor: pointer;
+	margin-top: 1rem;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-@media (max-width: 576px) {
+@media (max-width: 740px) {
 	.landingContainer {
 		display: flex;
 		flex-direction: column;
@@ -31,11 +31,36 @@
 		font-size: 1rem;
 		font-weight: 100;
 	}
-	.cta {
-		margin-top: 1rem;
-		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	.introImg img {
+		width: 100%;
+		height: 100%;
 	}
-	.img img {
+}
+
+/* Small devices  */
+@media (min-width: 740px), (min-width: 1200px) {
+	.landingContainer {
+		display: flex;
+		align-items: center;
+		padding: 0 150px;
+		width: 100%;
+	}
+	.title {
+		font-size: 1.7rem;
+		font-weight: 600;
+		padding: 0;
+	}
+	.subtitle {
+		font-size: 1rem;
+		font-weight: 100;
+	}
+	.introText {
+		width: 50%;
+	}
+	.introImg {
+		width: 50%;
+	}
+	.introImg img {
 		width: 100%;
 		height: 100%;
 	}

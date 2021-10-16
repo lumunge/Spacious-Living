@@ -14,9 +14,9 @@ const Landing = () => {
 						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, amet!
 					</span>
 				</p>
-            <button className="cta">Let's Go</button>
+            <button className="landingCta">Let's Go</button>
 			</div>
-			<div className="img">
+			<div className="introImg">
 				<img src={landingImg} alt="landing_img" />
 			</div>
 		</div>
