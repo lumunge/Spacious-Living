@@ -71,9 +71,6 @@ header {
 	.smallNav {
 		display: none;
 	}
-	header {
-		/* background-color: green; */
-	}
 	.largeNav {
 		display: flex;
 		justify-content: space-between;
