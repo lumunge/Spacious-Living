@@ -1,0 +1,112 @@
+/* Small devices  */
+@media (max-width: 576px) {
+	.formContainer {
+		padding: 2rem 1rem;
+	}
+	.formHeading {
+		font-size: 1.2rem;
+		padding-bottom: 1.2rem;
+	}
+	.formWrapper {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	form {
+		width: 80%;
+	}
+	.formInput {
+		display: flex;
+		flex-direction: column;
+		padding-bottom: 1.2rem;
+	}
+	.formInput input,
+	select {
+		padding: 10px 25px;
+		border-radius: 20px;
+		border: 1px solid var(--primaryColor);
+	}
+	.formInput select {
+		appearance: none;
+	}
+	label {
+		padding-bottom: 1rem;
+		font-size: 1rem;
+		font-weight: lighter;
+	}
+	.imageContainers {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.imageContainer {
+		position: relative;
+		margin: 1rem;
+	}
+	.fileInput {
+		position: absolute;
+		bottom: -10px;
+		right: -10px;
+	}
+	.fileImg {
+		width: 100px;
+		height: 100px;
+		background-color: #e5e5e5;
+	}
+	.fileImg img {
+		width: 100%;
+		height: 100%;
+	}
+	#addImageIcon {
+		width: 20px;
+		height: 20px;
+		background-color: var(--primaryColor);
+		border-radius: 50%;
+	}
+	.vetting {
+		display: flex;
+		margin-left: -5px;
+	}
+	.vetText {
+		color: var(--mainGrey3);
+		font-size: 15px;
+	}
+	.checkBox {
+		padding-bottom: 12px;
+	}
+	.vetInfoIcon {
+		margin-right: 10px;
+	}
+	.actionBtns {
+		width: 100%;
+		display: flex;
+		padding: 1rem 0 1rem 1rem;
+	}
+	.clearBtn,
+	.submitBtn {
+		padding: 10px 20px;
+		border-radius: 20px;
+		cursor: pointer;
+	}
+	.clearBtn {
+		margin-right: 4rem;
+		background-color: transparent;
+		border: 1px solid var(--primaryColor);
+		color: var(--primaryColor);
+	}
+	.submitBtn {
+		background-color: var(--primaryColor);
+		border: none;
+		color: var(--mainWhite);
+	}
+}
+
+/* // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... } */
+
+/* // Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... } */
+
+/* // Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */

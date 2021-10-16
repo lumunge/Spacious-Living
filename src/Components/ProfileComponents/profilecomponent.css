@@ -11,7 +11,8 @@
 	padding-top: 12px;
 	color: var(--mainGrey3);
 }
-span {
+.sectionHeading span,
+.infoIcon span {
 	display: flex;
 	padding: 12px 0;
 }
