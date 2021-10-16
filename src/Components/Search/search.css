@@ -12,6 +12,9 @@
 	bottom: 1.7rem;
 	cursor: pointer;
 }
+.search input {
+	background-color: #eeeeee;
+}
 
 /* Small devices  */
 @media (max-width: 740px) {

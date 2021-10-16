@@ -60,12 +60,14 @@ const Houses = () => {
         <div className="housesContainer">
             {houses.map((house) => (
                 <div className="house">
-                    <FavoriteBorderIcon className="like" />
                     <div className="houseImg">
                         <img src={house.image} alt={house.type} />
                     </div>
                     <div className="houseDetails">
-                        <p><StarOutlineIcon className="rate"/> {house.rating}</p>
+						<div className="houseIcons">
+							<span><StarOutlineIcon className="rate"/> {house.rating}</span>
+							<span><FavoriteBorderIcon className="like" /></span>
+						</div>
                         <p>{house.type}</p>
                         <span className="amenities">{house.amenities.map((amenity) => (
                             <span>{amenity}, </span>

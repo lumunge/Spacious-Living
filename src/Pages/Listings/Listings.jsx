@@ -10,8 +10,8 @@ const Listings = () => {
 		<>
 			<Navbar /> 
 			<Search />
-			<Map />
 			<Header />
+			<Map />
 			<Houses />
 			<Footer />
 		</>

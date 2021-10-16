@@ -3,7 +3,7 @@ import blank from "../../../img/blankImg.jpg";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import AddCircleOutlinedIcon from '@mui/icons-material/AddCircleOutlined';
 import "./form.css";
-
+ 
 const Form = () => {
 	const [file1, setFile1] = useState(null);
 	const [file2, setFile2] = useState(null);
@@ -54,7 +54,7 @@ const Form = () => {
 					</div>
 					<div className="formInput">
 						<label>Select the type of house</label>
-						<select name="houseType">
+						<select className="formSelectBtn" name="houseType">
 							<option value="">Select House</option>
 							<option value="1 bedroom apartment">
 								1 bedroom apartment
