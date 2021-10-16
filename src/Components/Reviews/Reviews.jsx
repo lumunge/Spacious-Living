@@ -67,7 +67,7 @@ const Reviews = () => {
                                     <img src={card.image} alt={card.name} />
                                 </div>
                                 <div className="userReview">
-                                    <p>{card.review}</p>
+                                    <p className="review">{card.review}</p>
                                     <br />
                                     <p className="username">{card.name}, {card.age}</p>
                                 </div>

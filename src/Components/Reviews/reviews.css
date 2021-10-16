@@ -1,5 +1,4 @@
-/* Small devices  */
-@media (max-width: 576px) {
+@media (max-width: 740px) {
 	.reviewContainer {
 		padding: 2rem 0;
 	}
@@ -52,12 +51,59 @@
 		color: var(--mainGrey3);
 	}
 }
-
-/* // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... } */
-
-/* // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... } */
-
-/* // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
+@media (min-width: 740px), (min-width: 1200px) {
+	.reviewContainer {
+		padding: 2rem 0;
+	}
+	.heading {
+		font-size: 1.5rem;
+		padding-left: 1.5rem;
+		padding-top: 1.5rem;
+		font-weight: 600;
+	}
+	.dot {
+		background-color: var(--primaryColor) !important;
+	}
+	.carousel-root {
+		margin-left: 2rem;
+		margin-right: 2rem;
+		margin-top: 1rem;
+	}
+	.reviewWrapper {
+		width: 100%;
+		padding-bottom: 3rem;
+		padding-top: 2rem;
+	}
+	.reviewCard {
+		display: flex;
+		align-items: center;
+		background-color: var(--mainGrey);
+		border-radius: 20px;
+	}
+	.reviewImg {
+		width: 50%;
+		height: 400px;
+	}
+	.reviewImg img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 20px 0 0 20px;
+	}
+	.userReview {
+		width: 50%;
+		padding: 0 1rem;
+		text-align: left;
+	}
+	.control-arrow {
+		height: 30% !important;
+		top: 30% !important;
+	}
+	.review {
+		font-size: 1.5rem;
+	}
+	.username {
+		font-size: 1rem;
+		color: var(--mainGrey3);
+	}
+}
