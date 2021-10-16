@@ -17,24 +17,3 @@
 	);
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF5C33", endColorstr="#FF5C33", GradientType=1 );
 }
-@media (max-width: 576px) {
-	.landing {
-		padding: 0;
-	}
-}
-
-/* Small devices  */
-/* @media (max-width: 740px) {
-	.landing {
-		height: 93vh;
-		padding: 0 150px 0 150px;
-	}
-} */
-
-/* // Medium devices (tablets, 768px and up) */
-/* @media (min-width: 740px), (min-width: 1200px) {
-	.landing {
-		height: 93vh;
-		padding: 0 150px 0 150px;
-	}
-} */

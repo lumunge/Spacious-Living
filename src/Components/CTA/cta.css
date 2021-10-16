@@ -1,5 +1,11 @@
-/* Small devices  */
-@media (max-width: 576px) {
+.ctaBtn {
+	border-radius: 20px;
+	border: 1px solid var(--primaryColor);
+	color: var(--primaryColor);
+	background-color: rgba(255, 92, 51, 0.4);
+	cursor: pointer;
+}
+@media (max-width: 740px) {
 	.ctaContainer {
 		display: flex;
 		align-items: center;
@@ -39,18 +45,46 @@
 	.ctaBtn {
 		margin-top: 1rem;
 		padding: 10px 20px;
-		border-radius: 20px;
-		border: 1px solid var(--primaryColor);
-		color: var(--primaryColor);
-		background-color: rgba(255, 92, 51, 0.4);
 	}
 }
-
-/* // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... } */
-
-/* // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... } */
-
-/* // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
+@media (min-width: 740px), (min-width: 1200px) {
+	.ctaContainer {
+		height: 70vh;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: var(--mainGrey);
+	}
+	.card {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 20px;
+		width: 80%;
+		background-color: #eeeeee;
+	}
+	.ctaDetails {
+		width: 50%;
+		padding: 1rem;
+	}
+	.userImg {
+		width: 50%;
+	}
+	.userImg img {
+		height: 100%;
+		width: 100%;
+		margin-bottom: -4px;
+		object-fit: cover;
+		border-radius: 0 0 20px 0px;
+	}
+	.cardHeading {
+		padding-bottom: 1rem;
+		font-size: 1.6rem;
+		font-weight: 600;
+	}
+	.ctaBtn {
+		margin-top: 1rem;
+		padding: 10px 20px;
+	}
+}
