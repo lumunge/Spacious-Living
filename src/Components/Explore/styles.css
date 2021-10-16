@@ -48,7 +48,7 @@
 }
 @media (min-width: 740px), (min-width: 1200px) {
 	.exploreContainer {
-		margin-top: 1rem;
+		margin: 1rem 150px;
 		height: 35vh;
 	}
 	.exploreTitle {

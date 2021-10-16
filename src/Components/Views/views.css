@@ -59,6 +59,7 @@
 @media (min-width: 740px), (min-width: 1200px) {
 	.viewContainer {
 		height: 80vh;
+		margin: 0 150px;
 	}
 	.viewTitle {
 		font-size: var(--titleFont);
