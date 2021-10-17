@@ -1,6 +1,7 @@
 .navContainer {
 	position: relative;
 	z-index: 999;
+	width: 100%;
 }
 .btn {
 	background-color: var(--secondaryColor);
@@ -51,7 +52,9 @@
 		display: flex;
 		justify-content: space-around;
 		width: 100%;
+		max-width: 100vw;
 		visibility: hidden;
+		overflow-x: hidden;
 	}
 	.active {
 		visibility: visible;
