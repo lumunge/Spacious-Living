@@ -41,10 +41,10 @@ const Form = () => {
 		});
 	};
 
-	return (
+	return ( 
 		<div className="formContainer">
 			<p className="formHeading">
-				Hi Susan, let's get started listing your place
+				<span>Hi Susan,</span> let's get started listing your place
 			</p>
 			<div className="formWrapper">
 				<form>
