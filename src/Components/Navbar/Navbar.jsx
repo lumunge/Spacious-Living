@@ -10,7 +10,8 @@ import ListAltIcon from '@mui/icons-material/ListAlt';
 import HomeIcon from '@mui/icons-material/Home';
 import HomeWorkIcon from '@mui/icons-material/HomeWork';
 import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
-import PersonIcon from '@mui/icons-material/Person';//styles
+import PersonIcon from '@mui/icons-material/Person';
+//styles
 import "./navbar.css";
 
 const Navbar = () => {

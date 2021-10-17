@@ -57,7 +57,7 @@ const Houses = () => {
 			price: 67000,
 		},
 	];
-	return (
+	return ( 
 		<div className="listingContainer">
 			<div className="mapContainer">
 				<img src={mapImg} alt="map_image" />
@@ -68,7 +68,7 @@ const Houses = () => {
 						<div className="houseImg">
 							<img src={house.image} alt={house.type} />
 						</div>
-						<div className="houseDetails">
+						<div className="listingHouseDetails">
 							<div className="houseIcons">
 								<span className="houseRating">
 									<StarOutlineIcon className="rate" />{" "}
