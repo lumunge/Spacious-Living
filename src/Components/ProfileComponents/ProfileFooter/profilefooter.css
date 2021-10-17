@@ -13,6 +13,8 @@
 		flex-direction: column;
 		align-items: center;
 		margin: 2rem 0;
+		/* temp */
+		margin-bottom: 5rem;
 	}
 	.footerLinks a {
 		font-size: 12px;

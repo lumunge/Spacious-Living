@@ -12,6 +12,7 @@
 		justify-content: center;
 		height: 600px;
 		background-color: var(--mainGrey);
+		margin: 0 20px;
 	}
 	.card {
 		padding: 0;
@@ -35,7 +36,7 @@
 		align-items: center;
 		text-align: center;
 		height: 50%;
-		padding: 2rem 0;
+		padding: 2rem 12px;
 	}
 	.cardHeading {
 		padding-bottom: 1rem;

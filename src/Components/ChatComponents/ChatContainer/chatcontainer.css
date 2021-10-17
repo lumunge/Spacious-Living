@@ -87,6 +87,10 @@
 	left: -2rem;
 }
 @media (max-width: 740px) {
+	.chatMainContainer {
+		/* temp */
+		margin-bottom: 4rem;
+	}
 	.profileContainer {
 		padding: 1rem 2rem;
 		height: 40vh;
