@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {Link, useHistory} from 'react-router-dom';
+import {useHistory} from 'react-router-dom';
 // icons
 import LanguageIcon from "@mui/icons-material/Language";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
