@@ -16,7 +16,6 @@
 	display: flex;
 }
 .logo h4 {
-	font-size: 1.8rem;
 	cursor: pointer;
 	color: var(--primaryColor);
 }
@@ -41,6 +40,13 @@
 		top: 0;
 		height: 60px;
 		box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
+	}
+	.logo h4 {
+		font-size: 1.1rem;
+	}
+	.logo small {
+		font-size: 10px;
+		color: var(--mainGrey3);
 	}
 	.top {
 		display: flex;
@@ -89,6 +95,9 @@
 	.topResponsiveNav,
 	.smallNav {
 		display: none;
+	}
+	.logo h4 {
+		font-size: 1.8rem;
 	}
 	.largeNav {
 		display: flex;
