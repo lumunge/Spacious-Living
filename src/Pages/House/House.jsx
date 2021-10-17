@@ -5,12 +5,12 @@ import SimilarHouses from "../../Components/HouseComponents/SimilarHouses/Simila
 
 const House = () => {
     return(
-        <>
+        <div className="housePage">
             <Navbar/>
             <HouseDetails/>
             <SimilarHouses/>
             <Footer/>
-        </>
+        </div>
     )
 }
 

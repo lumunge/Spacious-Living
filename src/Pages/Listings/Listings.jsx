@@ -6,13 +6,13 @@ import Houses from "../../Components/ListingComponents/Houses/Houses";
 
 const Listings = () => {
 	return (
-		<>
+		<div className="listingPage">
 			<Navbar /> 
 			<Search />
 			<Header />
 			<Houses />
 			<Footer />
-		</>
+		</div>
 	);
 };
 
