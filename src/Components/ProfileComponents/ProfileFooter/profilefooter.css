@@ -1,8 +1,3 @@
-.profileFooter {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
 .footerLinks {
 	margin-bottom: 1rem;
 }
@@ -12,6 +7,31 @@
 	font-size: 12px;
 	padding-right: 12px;
 }
-.footerCopyright {
-	font-size: 12px;
+@media (max-width: 740px) {
+	.profileFooter {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 2rem 0;
+	}
+	.footerLinks a {
+		font-size: 12px;
+	}
+	.footerCopyright {
+		font-size: 12px;
+	}
+}
+@media (min-width: 740px), (min-width: 1200px) {
+	.profileFooter {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 2rem 0;
+	}
+	.footerLinks a {
+		font-size: 1rem;
+	}
+	.footerCopyright {
+		font-size: 1rem;
+	}
 }

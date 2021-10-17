@@ -1,10 +1,10 @@
-import ProfileComponent from "../../Components/ProfileComponents/ProfileComponent";
+import ProfileItems from "../../Components/ProfileComponents/ProfileItems";
 import ProfileFooter from "../../Components/ProfileComponents/ProfileFooter/ProfileFooter";
 
 const Profile = () => {
     return(
         <>
-            <ProfileComponent/>
+            <ProfileItems/>
             <ProfileFooter/>
         </>
     )
