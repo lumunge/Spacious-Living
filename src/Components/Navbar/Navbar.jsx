@@ -44,18 +44,26 @@ const Navbar = () => {
 			</div>
 			<div className="largeNav">
 				<div className="logo">
-					<span onClick={() => history.push("/listings")}>hom-ly</span>
+					<span onClick={() => history.push("/")}>hom-ly</span>
 				</div>
 				<div className="navLinks">
-					<a href="#!" className="link">
-						Places to Stay
-					</a>
-					<a href="#!" className="link">
-						Link 2
-					</a>
-					<a href="#!" className="link">
-						Link 3
-					</a>
+					{/* temp links */}
+					<span className="link" onClick={() => history.push("/listings")}>
+						listings
+					</span>
+					<span className="link" onClick={() => history.push("/house")}>
+						house
+					</span>
+					<span className="link" onClick={() => history.push("/newhouse")}>
+						newhouse
+					</span>
+					<span className="link" onClick={() => history.push("/chat")}>
+						chat
+					</span>
+					<span className="link" onClick={() => history.push("/profile")}>
+						profile
+					</span>
+					{/* temp links */}
 				</div>
 				<div className="navEnd">
 					<div className="end">

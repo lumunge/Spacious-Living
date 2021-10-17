@@ -14,7 +14,10 @@
 .logo span {
 	cursor: pointer;
 }
-/* Small devices  */
+/* temp */
+.navLinks span {
+	cursor: pointer;
+}
 @media (max-width: 740px) {
 	.navContainer {
 		display: flex;
