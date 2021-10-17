@@ -12,8 +12,13 @@
 	font-weight: 600;
 	cursor: pointer;
 }
-.logo span {
+.logo {
+	display: flex;
+}
+.logo h4 {
+	font-size: 1.8rem;
 	cursor: pointer;
+	color: var(--primaryColor);
 }
 /* temp */
 .navLinks span {

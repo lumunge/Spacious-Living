@@ -1,16 +1,16 @@
 import { useState } from "react";
-import {useHistory} from 'react-router-dom';
-// icons 
+import { useHistory } from "react-router-dom";
+// icons
 import LanguageIcon from "@mui/icons-material/Language";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import ExploreIcon from "@mui/icons-material/Explore";
 import PersonOutlineIcon from "@mui/icons-material/PersonOutline";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import ListAltIcon from '@mui/icons-material/ListAlt';
-import HomeIcon from '@mui/icons-material/Home';
-import HomeWorkIcon from '@mui/icons-material/HomeWork';
-import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
-import PersonIcon from '@mui/icons-material/Person';
+import ListAltIcon from "@mui/icons-material/ListAlt";
+import HomeIcon from "@mui/icons-material/Home";
+import HomeWorkIcon from "@mui/icons-material/HomeWork";
+import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
+import PersonIcon from "@mui/icons-material/Person";
 //styles
 import "./navbar.css";
 
@@ -33,7 +33,10 @@ const Navbar = () => {
 		<header className="navContainer">
 			<div className="topResponsiveNav">
 				<div className="logo">
-					<span onClick={() => history.push("/")}>hom-ly</span>
+					<h4 onClick={() => history.push("/")}>hom-ly | </h4>
+					<small>
+						convenient <br /> living
+					</small>
 				</div>
 				<div className="top">
 					<span>
@@ -45,23 +48,42 @@ const Navbar = () => {
 			</div>
 			<div className="largeNav">
 				<div className="logo">
-					<span onClick={() => history.push("/")}>hom-ly</span>
+					<h4 onClick={() => history.push("/")}>hom-ly | </h4>
+					&nbsp;
+					<small>
+						convenient <br /> living
+					</small>
 				</div>
 				<div className="navLinks">
 					{/* temp links */}
-					<span className="link" onClick={() => history.push("/listings")}>
+					<span
+						className="link"
+						onClick={() => history.push("/listings")}
+					>
 						listings
 					</span>
-					<span className="link" onClick={() => history.push("/house")}>
+					<span
+						className="link"
+						onClick={() => history.push("/house")}
+					>
 						house
 					</span>
-					<span className="link" onClick={() => history.push("/newhouse")}>
+					<span
+						className="link"
+						onClick={() => history.push("/newhouse")}
+					>
 						newhouse
 					</span>
-					<span className="link" onClick={() => history.push("/chat")}>
+					<span
+						className="link"
+						onClick={() => history.push("/chat")}
+					>
 						chat
 					</span>
-					<span className="link" onClick={() => history.push("/profile")}>
+					<span
+						className="link"
+						onClick={() => history.push("/profile")}
+					>
 						profile
 					</span>
 					{/* temp links */}
@@ -93,7 +115,7 @@ const Navbar = () => {
 					<small>spaces</small>
 				</div>
 				<div className="smallIcon">
-					<FavoriteBorderIcon className="navIcon"/>
+					<FavoriteBorderIcon className="navIcon" />
 					<br />
 					<small>wishlist</small>
 				</div>
@@ -103,28 +125,43 @@ const Navbar = () => {
 					<small>login</small>
 				</div>
 				{/* not included start */}
-				<div className="smallIcon" >
-					<ListAltIcon className="navIcon" onClick={() => history.push("/listings")}/>
+				<div className="smallIcon">
+					<ListAltIcon
+						className="navIcon"
+						onClick={() => history.push("/listings")}
+					/>
 					<br />
 					<small>listings</small>
 				</div>
 				<div className="smallIcon">
-					<HomeIcon className="navIcon" onClick={() => history.push("/house")}/>
+					<HomeIcon
+						className="navIcon"
+						onClick={() => history.push("/house")}
+					/>
 					<br />
 					<small>house</small>
 				</div>
 				<div className="smallIcon">
-					<HomeWorkIcon className="navIcon" onClick={() => history.push("/newhouse")}/>
+					<HomeWorkIcon
+						className="navIcon"
+						onClick={() => history.push("/newhouse")}
+					/>
 					<br />
 					<small>new house</small>
 				</div>
 				<div className="smallIcon">
-					<ChatBubbleOutlineIcon className="navIcon" onClick={() => history.push("/chat")}/>
+					<ChatBubbleOutlineIcon
+						className="navIcon"
+						onClick={() => history.push("/chat")}
+					/>
 					<br />
 					<small>chat</small>
 				</div>
 				<div className="smallIcon">
-					<PersonIcon className="navIcon" onClick={() => history.push("/profile")}/>
+					<PersonIcon
+						className="navIcon"
+						onClick={() => history.push("/profile")}
+					/>
 					<br />
 					<small>profile</small>
 				</div>
