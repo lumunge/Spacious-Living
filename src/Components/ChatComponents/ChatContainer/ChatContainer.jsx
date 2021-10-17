@@ -140,7 +140,13 @@ const ChatContainer = () => {
 					<SendIcon className="inputIcon send" />
 				</div>
 			</div>
-			<div className="chatDetails">blank</div>
+			<div className="chatDetails">
+				<p className="chatsTitle">Chats</p>
+				<div className="chatName">Chat 1</div>
+				<div className="chatName">Chat 2</div>
+				<div className="chatName">Chat 3</div>
+				<div className="chatName">Chat 4</div>
+			</div>
 		</div>
 	);
 };
