@@ -1,5 +1,4 @@
 .landingWrapper {
-	height: 350px;
 	background-image: url("../../../img/uploadGirl.png");
 	background-position: center;
 	background-size: cover;
@@ -8,19 +7,65 @@
 	align-items: center;
 	justify-content: center;
 }
+.uploadCta {
+	background-color: var(--primaryColor);
+	padding: 10px 20px;
+	border-radius: 15px;
+	border: none;
+	color: var(--mainWhite);
+	font-weight: 600;
+	cursor: pointer;
+	margin-top: 1rem;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 .content {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 350px;
 	padding: 1rem 1.5rem;
 	color: #fff;
-	background: rgba(0, 0, 0, 0.4);
 }
-.landingHeading {
-	font-size: 1.6rem;
-	padding-bottom: 1rem;
+@media (max-width: 740px) {
+	.landingWrapper {
+		height: 350px;
+	}
+	.content {
+		height: 350px;
+		background: rgba(0, 0, 0, 0.4);
+	}
+	.landingHeading {
+		font-size: 1.6rem;
+		padding-bottom: 1rem;
+	}
+	.uploadCta {
+		width: 30%;
+	}
 }
-.uploadCta {
-	width: 30%;
+@media (min-width: 740px), (min-width: 1200px) {
+	.landingWrapper {
+		height: 500px;
+	}
+	.content {
+		height: 500px;
+		width: 100%;
+	}
+	.contentText {
+		width: 50%;
+		background: rgba(0, 0, 0, 0.4);
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 1rem;
+	}
+	.uploadCta {
+		width: 30%;
+	}
+	.landingHeading {
+		font-size: 2rem;
+		padding-bottom: 1rem;
+	}
+	.landingText {
+		font-size: 1.2rem;
+	}
 }
