@@ -4,10 +4,10 @@ import './header.css';
 
 const Header = () => {
     return(
-        <header>
+        <div>
             <Navbar/>
             <Search />
-        </header>
+        </div>
     )
 }
 

@@ -25,9 +25,6 @@
 		font-weight: 600;
 		font-size: 1.5rem;
 	}
-	header {
-		display: flex;
-	}
 	.filteringContainer {
 		display: flex;
 	}

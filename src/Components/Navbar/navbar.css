@@ -1,4 +1,4 @@
-header {
+.navContainer {
 	position: relative;
 	z-index: 999;
 }
@@ -29,6 +29,7 @@ header {
 		position: absolute;
 		top: 0;
 		height: 60px;
+		box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 	}
 	.top {
 		display: flex;
@@ -77,6 +78,7 @@ header {
 		align-items: center;
 		height: 70px;
 		padding: 0 10px;
+		box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 5px;
 	}
 	.navEnd {
 		display: flex;
@@ -145,17 +147,3 @@ header {
 		background-color: #3e8e41;
 	}
 }
-
-/* // Large devices (desktops, 992px and up) */
-/* @media (min-width: 992px) {
-	header {
-		background-color: purple;
-	}
-} */
-
-/* // Extra large devices (large desktops, 1200px and up)*/
-/* @media (min-width: 1200px) {
-	header {
-		background-color: maroon;
-	}
-} */
