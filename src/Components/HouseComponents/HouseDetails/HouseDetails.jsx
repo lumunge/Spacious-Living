@@ -4,6 +4,12 @@ import LocalParkingIcon from "@mui/icons-material/LocalParking";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import NetworkWifiIcon from "@mui/icons-material/NetworkWifi";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import landinghse1 from "../../../img/landinghse1.jpg";
+import landinghse2 from "../../../img/landinghse2.jpg";
+import landinghse3 from "../../../img/landinghse3.jpg";
+import landinghse4 from "../../../img/landinghse4.jpg";
+import landinghse5 from "../../../img/landinghse5.jpg";
+import map2 from "../../../img/map2.jpg";
 import "./housedetails.css";
 
 const HouseDetails = () => {
@@ -12,32 +18,32 @@ const HouseDetails = () => {
 			<div className="houseImages">
 				<div className="mainHouseImage">
 					<img
-						src="https://a0.muscache.com/im/pictures/cfa3a285-ad10-4bcc-a032-9956e8b2e9e5.jpg?im_w=1200"
+						src={landinghse1}
 						alt="house_img"
 					/>
 				</div>
 				<div className="smallHouseImages">
 					<div className="houseImage">
 						<img
-							src="https://a0.muscache.com/im/pictures/2c1121c1-dc8a-46d2-9604-e51981b4560f.jpg?im_w=720"
+							src={landinghse2}
 							alt="house_img"
 						/>
 					</div>
 					<div className="houseImage">
 						<img
-							src="https://a0.muscache.com/im/pictures/100cd8df-561f-4c34-904b-a75314e616b5.jpg?im_w=720"
+							src={landinghse3}
 							alt="house_img"
 						/>
 					</div>
 					<div className="houseImage">
 						<img
-							src="https://a0.muscache.com/im/pictures/d11e6546-12fb-485a-9883-58e9fb3d1a89.jpg?im_w=720"
+							src={landinghse4}
 							alt="house_img"
 						/>
 					</div>
 					<div className="houseImage">
 						<img
-							src="https://a0.muscache.com/im/pictures/5bbba8f1-5cc9-4967-808d-f3fd3367fb89.jpg?im_w=1200"
+							src={landinghse5}
 							alt="house_img"
 						/>
 					</div>
@@ -80,7 +86,7 @@ const HouseDetails = () => {
 					<div className="mapLocation">
 						<p className="detailTitle">Location</p>
 						<img
-							src="https://media.wired.com/photos/59269cd37034dc5f91bec0f1/191:100/w_1280,c_limit/GoogleMapTA.jpg"
+							src={map2}
 							alt="map_img"
 						/>
 					</div>

@@ -1,12 +1,16 @@
 import StarOutlineIcon from "@mui/icons-material/StarOutline";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
-import mapImg from "../../../img/map.webp";
+import mapImg from "../../../img/map.jpg";
+import listing1 from "../../../img/listing1.jpg";
+import listing2 from "../../../img/listing2.jpg";
+import listing3 from "../../../img/listing3.jpg";
+import listing4 from "../../../img/listing4.jpeg";
 import "./houses.css";
 
 const Houses = () => {
 	const houses = [
 		{
-			image: "https://media-cdn.tripadvisor.com/media/photo-s/06/35/c5/3f/rutundu-log-cabins.jpg",
+			image: listing1,
 			rating: 4.2,
 			type: "1 Bedroom Cabin",
 			amenities: [
@@ -19,7 +23,7 @@ const Houses = () => {
 			price: 45000,
 		},
 		{
-			image: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/163560738.jpg?k=da4ee7c86cc4c0bdca386b13c39cf8c9e5f6dace5533e426e5bab65d9c91eb62&o=&hp=1",
+			image: listing2,
 			rating: 3.2,
 			type: "1 Bedroom Apartment",
 			amenities: [
@@ -31,7 +35,7 @@ const Houses = () => {
 			price: 55000,
 		},
 		{
-			image: "https://pictures-kenya.jijistatic.com/9644342_img-20200616-wa0024_960x1280.jpg",
+			image: listing3,
 			rating: 4.4,
 			type: "1 Bedroom SQ",
 			amenities: [
@@ -44,7 +48,7 @@ const Houses = () => {
 			price: 23000,
 		},
 		{
-			image: "https://images.mansionglobal.com/im-113435?size=1.3333333333333333&width=1280",
+			image: listing4,
 			rating: 3.9,
 			type: "1 Bedroom Multi-family Residentia",
 			amenities: [

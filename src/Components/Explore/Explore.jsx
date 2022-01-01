@@ -1,4 +1,10 @@
 import {useState} from 'react';
+import exp1 from '../../img/explore1.jpg';
+import exp2 from '../../img/explore2.jpg';
+import exp3 from '../../img/explore3.jpg';
+import exp4 from '../../img/explore4.jpg';
+import exp5 from '../../img/explore5.png';
+import exp6 from '../../img/explore5.png';
 import './styles.css';
 
 
@@ -6,32 +12,32 @@ const Explore = () => {
     const [locations] = useState([
         {
             name: "Nairobi",
-            image: "https://www.rmjm.com/wp-content/uploads/2017/01/maxresdefault.jpg",
+            image: exp1,
             drive: "45 mins drive"
         },
         {
             name: "Thika",
-            image: "https://www.rmjm.com/wp-content/uploads/2017/01/maxresdefault.jpg",
+            image: exp4,
             drive: "45 mins drive"
         },
         {
             name: "Kileleshwa",
-            image: "https://www.pamgolding.co.za/Uploads/areaguides/ef427c4a-846e-40bd-aade-b739eb91a5af/Header/Kileleshwa%20header.jpg",
+            image: exp3,
             drive: "20 mins drive"
         },
         {
             name: "Kiambu",
-            image: "https://victormatara.com/wp-content/uploads/2018/07/List-Of-Sub-Counties-In-Kiambu-County.jpg",
+            image: exp4,
             drive: "1hr drive"
         },
         {
             name: "Machakos",
-            image: "https://images.hivisasa.com/1200/Vphv5Re7RVInvestment.png",
+            image: exp2,
             drive: "50 min drive"
         },
         {
             name: "Juja",
-            image: "https://i1.wp.com/breakingnews.co.ke/wp-content/uploads/2020/02/juja-pic-1.jpg?w=600&ssl=1",
+            image: exp6,
             drive: "35 mins drive"
         },
     ])

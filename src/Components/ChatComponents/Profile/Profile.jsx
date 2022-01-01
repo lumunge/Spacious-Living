@@ -1,4 +1,5 @@
 import './profile.css';
+import chatuser from "../../../img/chatuser.jpg"
 
 const Profile = () => {
     return(
@@ -6,7 +7,7 @@ const Profile = () => {
             <p className="chatTitle">Chat With User</p>
             <div className="chatProfile">
                 <div className="profileImg">
-                    <img src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_624206636_200013332000928034_376810.jpg" alt="user_profile" />
+                    <img src={chatuser} alt="user_profile" />
                 </div>
                 <div className="profileDetails">
                     <p className="profileName">Susan Doe</p>

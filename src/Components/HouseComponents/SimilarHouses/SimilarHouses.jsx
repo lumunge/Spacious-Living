@@ -1,67 +1,76 @@
 import StarOutlineIcon from "@mui/icons-material/StarOutline";
+import similar1 from "../../../img/similar1.jpg";
+import similar2 from "../../../img/similar2.jpg";
+import similar3 from "../../../img/similar3.jpg";
+import similar4 from "../../../img/similar4.jpg";
+import similar5 from "../../../img/similar5.jpg";
+import similar6 from "../../../img/similar6.jpg";
+import similar7 from "../../../img/similar7.jpg";
+import similar8 from "../../../img/similar8.jpg";
+import similar9 from "../../../img/similar9.jpg";
 import "./similarhouses.css";
 
 const SimilarHouses = () => {
 	const houses = [
 		{
 			title: "1 Bedroom Apartment",
-			image: "https://media-cdn.tripadvisor.com/media/photo-s/07/41/d0/d5/oasis-luxury-apartments.jpg",
+			image: similar1,
 			features: ["Swimming Pool", "Pets", "Wifi"],
 			rating: 4.2,
 			price: 24000,
 		},
 		{
 			title: "2 Bedroom Cabin",
-			image: "https://a0.muscache.com/im/pictures/fceb7df2-4925-468d-adbc-317c4453d098.jpg?aki_policy=large",
+			image: similar2,
 			features: ["Free Parking", "Outdoor Furniture", "Wifi"],
 			rating: 4.1,
 			price: 35000,
 		},
 		{
 			title: "1 Bedroom SQ",
-			image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/9e/f1/c7/getlstd-property-photo.jpg?w=900&h=-1&s=1",
+			image: similar3,
 			features: ["Reading Material", "Furniture", "Wifi"],
 			rating: 3.6,
 			price: 55000,
 		},
 		{
 			title: "Studio Apartment",
-			image: "https://imganuncios.mitula.net/warm_beautiful_3_bedroom_apartments_to_let_in_kiambu_road_thindigua_7830135634134853887.jpg",
+			image: similar4,
 			features: ["Washing Machine", "Gym", "Wifi"],
 			rating: 4.0,
 			price: 45000,
 		},
 		{
 			title: "1 Bedroom Bungalow",
-			image: "https://i.pinimg.com/originals/e9/5e/71/e95e71670910e24e76a1f81c5e5f6e33.jpg",
+			image: similar5,
 			features: ["Air Conditioning", "Pets", "Hot Water"],
 			rating: 3.9,
 			price: 44000,
 		},
 		{
 			title: "Bedsitter",
-			image: "https://sapama.com/media/homes/upload/AyzwrIeMwKozq5QlRKIC8mS8wZSw8bgZ.jpg",
+			image: similar6,
 			features: ["Swimming Pool", "Free Parking", "Outdoor Furniture"],
 			rating: 4.6,
 			price: 27000,
 		},
 		{
 			title: "1 Bedroom SQ",
-			image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/04/9e/f1/c7/getlstd-property-photo.jpg?w=900&h=-1&s=1",
+			image: similar7,
 			features: ["Reading Material", "Furniture", "Wifi"],
 			rating: 3.6,
 			price: 55000,
 		},
 		{
 			title: "Studio Apartment",
-			image: "https://imganuncios.mitula.net/warm_beautiful_3_bedroom_apartments_to_let_in_kiambu_road_thindigua_7830135634134853887.jpg",
+			image: similar8,
 			features: ["Washing Machine", "Gym", "Wifi"],
 			rating: 4.0,
 			price: 45000,
 		},
 		{
 			title: "1 Bedroom Bungalow",
-			image: "https://i.pinimg.com/originals/e9/5e/71/e95e71670910e24e76a1f81c5e5f6e33.jpg",
+			image: similar9,
 			features: ["Air Conditioning", "Pets", "Hot Water"],
 			rating: 3.9,
 			price: 44000,

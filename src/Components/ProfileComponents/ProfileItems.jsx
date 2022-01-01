@@ -5,6 +5,7 @@ import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import MapsHomeWorkOutlinedIcon from "@mui/icons-material/MapsHomeWorkOutlined";
 import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 import ContactSupportOutlinedIcon from "@mui/icons-material/ContactSupportOutlined";
+import loginUser from "../../img/chatuser.jpg"
 import "./profileitems.css";
 
 const ProfileItems = () => {
@@ -16,7 +17,7 @@ const ProfileItems = () => {
 				</div>
 				<div className="userPicture">
 					<img
-						src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_624206636_200013332000928034_376810.jpg"
+						src={loginUser}
 						alt="user_image"
 					/>
 				</div>
