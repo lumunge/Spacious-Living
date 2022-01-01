@@ -3,7 +3,6 @@ import exp1 from '../../img/explore1.jpg';
 import exp2 from '../../img/explore2.jpg';
 import exp3 from '../../img/explore3.jpg';
 import exp4 from '../../img/explore4.jpg';
-import exp5 from '../../img/explore5.png';
 import exp6 from '../../img/explore5.png';
 import './styles.css';
 
