@@ -33,7 +33,7 @@ const Navbar = () => {
 		<header className="navContainer">
 			<div className="topResponsiveNav">
 				<div className="logo">
-					<h4 onClick={() => history.push("/")}>hom-ly</h4>
+					<h4 onClick={() => history.push("/")}>spacious</h4>
 					<div className="line"></div>
 					<small>
 						convenient <br /> living
@@ -49,7 +49,7 @@ const Navbar = () => {
 			</div>
 			<div className="largeNav">
 				<div className="logo">
-					<h4 onClick={() => history.push("/")}>hom-ly | </h4>
+					<h4 onClick={() => history.push("/")}>spacious | </h4>
 					&nbsp;
 					<small>
 						convenient <br /> living

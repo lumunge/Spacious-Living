@@ -67,9 +67,9 @@ const ProfileItems = () => {
 				<div className="help">
 					<div className="infoDetails">
 						<HelpOutlineOutlinedIcon className="infoIcon" />
-						<p>How hom-ly works</p>
+						<p>How spacious works</p>
 						<span>
-							Find out how to use hom-ly effectively to improve
+							Find out how to use spacious effectively to improve
 							your experience.
 						</span>
 					</div>

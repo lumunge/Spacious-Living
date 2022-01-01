@@ -10,7 +10,7 @@ const Footer = () => {
 				<div className="footLinksContainer">
 					<p className="footHeading">About</p>
 					<div className="footLinks">
-						<a href="#!">How hom-ly works</a>
+						<a href="#!">How spacious works</a>
 						<a href="#!">Blog</a>
 						<a href="#!">Privacy policy</a>
 						<a href="#!">Terms and conditions</a>
@@ -46,7 +46,7 @@ const Footer = () => {
 			</div>
 			<div className="footer">
 				<div className="copyright">
-					<p>&copy; 2021 hom-ly.com All rights reserved</p>
+					<p>&copy; 2022 spacious.com All rights reserved</p>
 				</div>
 				<div className="socials">
 					<span>

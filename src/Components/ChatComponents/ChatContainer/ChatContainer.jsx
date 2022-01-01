@@ -5,18 +5,18 @@ import SendIcon from "@mui/icons-material/Send";
 const ChatContainer = () => {
 	const chats = [
 		{
+			user: "https://static.billygraham.org/sites/billygraham.org/uploads/pro/2013/06/29153327/IMG_4285-Version-2-1024x682.jpg",
+			message: "Hello",
+			time: "13:01",
+			sender: false,
+		},
+		{
 			user: "https://www.incimages.com/uploaded_files/image/1920x1080/getty_624206636_200013332000928034_376810.jpg",
 			message: "Hello",
 			time: "13:01",
 			sender: true,
 		},
 		{
-			user: "https://static.billygraham.org/sites/billygraham.org/uploads/pro/2013/06/29153327/IMG_4285-Version-2-1024x682.jpg",
-			message: "Hi",
-			time: "13:01",
-			sender: false,
-		},
-		{
 			user: "https://www.incimages.com/uploaded_files/image/1920x1080/getty_624206636_200013332000928034_376810.jpg",
 			message: "How are you doing",
 			time: "13:01",
@@ -30,37 +30,37 @@ const ChatContainer = () => {
 		},
 		{
 			user: "https://www.incimages.com/uploaded_files/image/1920x1080/getty_624206636_200013332000928034_376810.jpg",
-			message: "How are you doing",
+			message: "Are you looking to share a space?",
 			time: "13:01",
 			sender: true,
 		},
 		{
 			user: "https://static.billygraham.org/sites/billygraham.org/uploads/pro/2013/06/29153327/IMG_4285-Version-2-1024x682.jpg",
-			message: "I am doing good",
+			message: "As a matter of fact i am, do you know of any place?",
 			time: "13:01",
 			sender: false,
 		},
 		{
 			user: "https://www.incimages.com/uploaded_files/image/1920x1080/getty_624206636_200013332000928034_376810.jpg",
-			message: "How are you doing",
+			message: "Yeah, there are apartments, near x, they go for Ksh y per month, so y/2 per month if we decide to share.",
 			time: "13:01",
 			sender: true,
 		},
 		{
 			user: "https://static.billygraham.org/sites/billygraham.org/uploads/pro/2013/06/29153327/IMG_4285-Version-2-1024x682.jpg",
-			message: "I am doing good",
+			message: "That's convenient, when can we meet?",
 			time: "13:01",
 			sender: false,
 		},
 		{
 			user: "https://www.incimages.com/uploaded_files/image/1920x1080/getty_624206636_200013332000928034_376810.jpg",
-			message: "How are you doing",
+			message: "Am busy at the moment maybe tommorow?",
 			time: "13:01",
 			sender: true,
 		},
 		{
 			user: "https://static.billygraham.org/sites/billygraham.org/uploads/pro/2013/06/29153327/IMG_4285-Version-2-1024x682.jpg",
-			message: "I am doing good",
+			message: "Sure, ",
 			time: "13:01",
 			sender: false,
 		},
